@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    text-align: justify; 
+    margin: 0;
+    padding: 0;
+    
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/046/625/172/large/tiago-sousa-chobani01-v2.jpg?1645638420");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+
+    font-size: 1.5rem;
+    color: #103a00;
+}
+
+h1 {
+    font-size: 5rem;
+    color: white;
+    text-shadow: 
+    -2px -2px 0 #103a00,  
+    2px -2px 0 #103a00,
+    -2px  2px 0 #103a00,
+    2px  2px 0 #103a00;
+}
+
+.container1, .bottom-container {
+    background-color: rgba(232, 251, 213, 0.7);
+    padding: 3rem;
+    width: 70%;
+    border-radius: 3rem;
+    text-align: center;
+    margin: 5rem 0rem;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.bcontainer
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    flex: 1;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+}
